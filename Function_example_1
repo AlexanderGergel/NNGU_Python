@@ -1,0 +1,18 @@
+
+def InputData():
+  a = int(input("введите первое число"))  
+  b = int(input("введите второе число"))
+  return a,b    # int!!!   list, dict, set ????
+  
+def Summa(n1,n2): #n1 = x,  n2 = y
+  s=n1+n2  #example  12+34 = 46
+  return s
+  
+def Print(number): #number=sum
+  print("сумма двух чисел равна ", number)
+#------------main()
+x,y= InputData()  #  x = a,  y = b   #return  a,b
+
+sum=Summa(x,y)   # sum = s
+
+Print(sum)   #sum
